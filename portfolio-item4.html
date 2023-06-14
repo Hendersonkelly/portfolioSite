@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <!-- update with own fonts if you want -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+COde+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="/#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="/#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="/#work" class="nav__link">Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- introduction -->
+<section class="intro" >
+    <h1 class="section__title section__title--intro">
+        <strong>The Electric Mayhem </strong> A muppet fan site
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">EJS Socket io Express</p>
+    <img src="./img/profile.jpg" alt="portfolio pic" class="intro__img">
+</section>
+
+
+<div class="portfolio-item-individual">
+    <p>
+
+        <a href="https://electricmayhemsite.onrender.com" class="btn">View site</a>
+    </p>
+    <p><strong>About the Project</strong>This was made in response to an assignment to create a band website with chat and commenting capabilities using the templating system EJS and routes. As a Disney adult I could not pass up the opportunity to have a little fun with one of the greatest house bands and to celebrate their new show. </p>
+    <img class="portfolio-item-individual-img" src="./img/homepageband.png" alt="">
+    <p><strong>Built With:</strong> HTML, CSS, Express, EJS, Socket io </p>
+    <p><strong>Usage:</strong>You can navigate through the site by the type of performances in the drop down menu. From there you will move to a page of a list of their performances and with a click you can see a specific performance with an embedded video.</p>
+    <img class="portfolio-item-individual-img" src="./img/dropdown.png" alt="">
+    <br/>
+    <img  class="portfolio-item-individual-img" src="./img/categoryband.png" alt="">
+    <p>There is also a comment page that allows you to create and remove comments and a chat feature. </p>
+    <img class="portfolio-item-individual-img" src="img/comment.png" alt="">
+    <br/>
+    <img  class="portfolio-item-individual-img" src="./img/chat.png" alt="">
+    <p><strong>Learnings/challenges:</strong> I had alot of fun with my band choice and wanted to do something unexpected. It was a struggle to gather all the img and find the videos for the bands appearances and because of their long history with the muppets the pages holding the data became long very quickly. I chose to extend the project by not only listing albums but also their performances and movies they had particpated in.Keeping all the routes straight to GET the correct data and then moving through the data depending on the strucutre was challenging but overall successful. Here is a snippet of some of my routes:</p>
+    <img  class="portfolio-item-individual-img"src="./img/bandcode.png" alt="">
+   
+</div>
+
+
+     <!-- footer -->
+     <footer class="footer">
+        <a href="mailto:kellyJeanHenderson@gmail.com" class="footer__link">email</a>
+        <ul class="social-list">
+        <li class="social-list__item"> 
+            <a href="https://github.com/Hendersonkelly/ElectricMayhemSite" class="social-list__link" >
+                <i class="fa-brands fa-github"></i>
+            </a >
+            </li>
+        <li class="social-list__item"> 
+            <a href="https://www.linkedin.com/in/kelly-henderson-787491229/" class="social-list__link" >
+                <i class="fa-brands fa-linkedin"></i>
+            </a >
+        </li>
+        <li class="social-list__item">
+             <a href="" class="social-list__link" >
+
+             </a >
+            </li>
+        <li class="social-list__item"> 
+            <a href="" class="social-list__link" >
+
+            </a >
+        </li>
+        </ul>
+    </footer >
+</section>
+
+<script src="https://kit.fontawesome.com/f60709c3f5.js" crossorigin="anonymous"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <!-- update with own fonts if you want -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+COde+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="/#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="/#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="/#work" class="nav__link">Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- introduction -->
+<section class="intro" >
+    <h1 class="section__title section__title--intro">
+        <strong>Fetch a Friend</strong> Plan a pup playdate 
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Express, Sequelize, EJS, Passport</p>
+    <img src="./img/profile.jpg" alt="portfolio pic" class="intro__img">
+</section>
+
+
+<div class="portfolio-item-individual">
+    
+    <p>
+
+        <a href="https://kt-fetch-a-friend-2.onrender.com/" class="btn">View site</a>
+    </p>
+    <p><strong>About the Project:</strong> Our web dev class was tasked with creating a full-stack project (with emphasis on back end). We decided to create a version of Bumble/Hinge, but for dog owners looking for a playmate for their pups. Fetch a Friend allows a user to create an account, set up a profile for their dog, and search for other dogs by zipcode. The dog profiles include criteria such as size, energy level, and description so that the owner can identify a suitable match. Then owners can message each other to set up playdates.</p>
+    <img src="./img/fetch1.png" alt="">
+    <p> <strong>Built With:</strong> Express, Node.js, Sequelize, PostgreSQL, Beekeeper, ElephantSQL, EJS, Theme Forest Template, Cloudinary, Passport.js, bcrypt.js </p>
+    <p><strong>Usage:</strong>Sign up for, or log in to, the site.If you are a new registrant, you will be directed to a profile creation page:</p>
+    <img class="portfolio-item-individual-imgBig" src="./img/fetch2.png" alt="">
+    <br/>
+    <img class="portfolio-item-individual-imgBig" portfolio-item-individual-img src="./img/fetch3.png" alt="">
+    <p>If you are a returning user, you will be directed to a dashboard which displays your dog(s) information:</p>
+    <img class="portfolio-item-individual-imgBig" src="./img/fetch4.png" alt="">
+    <p>You can then access the Dog Search, to look at profiles of the other dogs in our database. You can filter by zipcode, if you'd like to search for dogs in a specific area.</p>
+</div>
+
+
+     <!-- footer -->
+     <footer class="footer">
+        <a href="mailto:kellyJeanHenderson@gmail.com" class="footer__link">email</a>
+        <ul class="social-list">
+        <li class="social-list__item"> 
+            <a href="https://github.com/kathryntoney/back-end-project" class="social-list__link" >
+                <i class="fa-brands fa-github"></i>
+            </a >
+            </li>
+        <li class="social-list__item"> 
+            <a href="https://www.linkedin.com/in/kelly-henderson-787491229/" class="social-list__link" >
+                <i class="fa-brands fa-linkedin"></i>
+            </a >
+        </li>
+        <li class="social-list__item">
+             <a href="" class="social-list__link" >
+
+             </a >
+            </li>
+        <li class="social-list__item"> 
+            <a href="" class="social-list__link" >
+
+            </a >
+        </li>
+        </ul>
+    </footer >
+</section>
+
+<script src="https://kit.fontawesome.com/f60709c3f5.js" crossorigin="anonymous"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>
