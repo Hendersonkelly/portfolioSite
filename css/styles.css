@@ -476,25 +476,3 @@ header{
 
 }
 
-.portfolio-item-individual-img{
-    margin-left: 9em;
-    width: 550px;
-}
-.portfolio-item-individual-imgs{
-
-     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-}
-
-.portfolio-item-individual-img-sm{
-    margin-left: 9em;
-    width: 200px;
-}
-.portfolio-item-individual-imgBig{
-    margin-left: 9em;
-    width: 750px;
-}
-.portfolio-item-individual-imgBiggest{
-    margin-left: 9em;
-    width: 1000px;
-}
