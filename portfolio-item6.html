@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <!-- update with own fonts if you want -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+COde+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- introduction -->
+<section class="intro" >
+    <h1 class="section__title section__title--intro">
+        <strong>BlackJack</strong>Game
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">JavaScript & DOM</p>
+    <img src="./img/profile.jpg" alt="portfolio pic" class="intro__img">
+</section>
+
+
+<div class="portfolio-item-individual">
+    <p>
+
+        <a href="https://blackjack-henderson.netlify.app" class="btn">View site</a>
+    </p>
+    <p> <strong> About:</strong> This is a basic blackjack game emphasizing skills in JavaScript, Object Oriented Programming, and DOM manipulation. </p>
+    <img  class="portfolio-item-individual-img" src="./img/blackJack.png" alt="">
+    
+    <p><strong> Technologies Used : </strong> HTML, CSS, Bootstrap, JavaScript</p>
+
+    <p><strong>How it Works</strong>The game begins by selecting the Deal button. This immediately creates and shuffles the deck as well as deals 2 cards to the dealer and player. At the end of the deal, the deal button goes inactive.The player will get the opportunity to decide to hit or stand. If the player hits another card is added and the total points are calculated. If the player chooses to stand the dealer then chooses to hit or stand. This logic includes forcing a hit if the dealer is under 17 and forces a stand if at 17 or higher. Modals pop up along the way if anyone busts and also pops up to let the player know who wins.he player is prompted at the end of the game to answer whether they would like to play again.
+
+    </p>
+    <div class="portfolio-item-individual-imgs">
+
+        <img  height="275px" src="./img/deal.png" alt="">
+        <img  height="275px" src="./img/busted.png" alt="">
+       
+    </div>
+    <p><strong>Learning/Challenges:</strong>This project was one of the first full functional projects I worked on. I solidified my understanding of using logic as a part of funcitons to manipulate elements of the DOM. I also chose OOP as a way to consider the movement of the cards and decision making deliberately to continue my learning in this area. This was not part of the original assignment. I was challenged along the way with learning aspects of the game and seeing edge cases of how to calculate the Ace. I am looking forward and onward to my next challenge where I can build on these skills to more complicated ends.
+
+        Below is some of the code to consider the Ace in the player's total points:
+    </p>
+    <img class="portfolio-item-individual-img" width="550px" src="./img/blackjackCode.png" alt="">
+    
+</div>
+
+
+     <!-- footer -->
+     <footer class="footer">
+        <a href="mailto:kellyJeanHenderson@gmail.com" class="footer__link">email</a>
+        <ul class="social-list">
+        <li class="social-list__item"> 
+            <a href="https://github.com/Hendersonkelly/blackjack2021" class="social-list__link" >
+                <i class="fa-brands fa-github"></i>
+            </a >
+            </li>
+        <li class="social-list__item"> 
+            <a href="https://www.linkedin.com/in/kelly-henderson-787491229/" class="social-list__link" >
+                <i class="fa-brands fa-linkedin"></i>
+            </a >
+        </li>
+        <!-- <li class="social-list__item">
+             <a href="" class="social-list__link" >
+
+             </a >
+            </li>
+        <li class="social-list__item"> 
+            <a href="" class="social-list__link" >
+
+            </a >
+        </li> -->
+        </ul>
+    </footer >
+</section>
+
+<script src="https://kit.fontawesome.com/f60709c3f5.js" crossorigin="anonymous"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>
